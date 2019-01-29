@@ -1,0 +1,322 @@
+/*Basic CSS Resets*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edeff0;
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+header{
+    background-color: #FBF9FF;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+}
+header .logo{
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+header li{
+    display: inline-block;
+}
+header a{
+    display: inline-block;
+    color: #0D1413;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+header nav a:hover,
+header .active a{
+    background-color: rgba(0,0,0,.05);
+}
+/****header*/
+
+/*intro*/
+#intro{
+    min-height: 60vh;
+    text-align: center;
+    background-image: url(../img/garden.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#intro .text-intro{
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+}
+#intro h2{
+    margin-top: 100px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+#intro h3{
+    padding: 5px;
+}
+#intro .text-btn a{
+    display: inline-block;
+    width: 40%;
+    margin: 50px 0px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #55C18F;
+    color: #fff;
+    transition: box-shadow 0.5s;
+    
+}
+#intro .text-btn a:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+/* ***Intro*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*welcome*/
+#welcome{
+    text-align: center;
+    background-color: #55C18F;
+    color: #fff;
+    padding: 20px 10px;
+}
+#welcome h1{
+    font-size: 2em;
+    padding: 5px;
+}
+#welcome p{
+    padding: 10px;
+}
+.service{
+    margin: 20px 0px;
+}
+.service h3{
+    font-size: 1.3em;
+    padding: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+.work{
+    min-height: 250px;
+    margin: 20px auto;
+    width: 90%;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+}
+.work.one{
+    background-image: url(../img/s1.jpeg);
+    background-size: cover;
+}
+.work.two{
+    background-image: url(../img/s2.jpeg);
+    background-size: cover;
+}
+.work.three{
+    background-image: url(../img/s3.jpeg);
+    background-size: cover;
+}
+.work.four{
+    background-image: url(../img/s4.jpeg);
+    background-size: cover;
+}
+.work-title{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    padding: 20px 5px;
+}
+
+/****welcome*/
+
+/*blog*/
+#blog{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#blog h2{
+    padding: 10px;
+    font-size: 1.5em;
+}
+#blog .blog-call-to-action a,
+#blog .article-call-to-action a{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 0px 20px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #55C18F;
+    color: #fff;
+    transition: box-shadow 0.5s;
+}
+#blog .blog-call-to-action a:hover,
+#blog .article-call-to-action a:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+#blog .article{
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+#blog .article-date{
+    font-style: italic;
+    padding: 10px;
+    background-color: #0D1413;
+    color: #fff;
+}
+#blog .article-title {
+    font-size: 1.3em;
+    padding: 10px;
+}
+#blog .article-text {
+    padding: 10px;
+}
+/****blog*/
+
+/*testimonial*/
+#testimonials{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+#testimonials h2{
+    padding: 10px;
+    font-size: 1.5em;
+}
+#testimonials h3{
+    padding: 5px;
+    font-size: 1.3em;
+    font-style: italic;
+}
+#testimonials .testimonial{
+    margin: 30px auto;
+    width: 90%;
+}
+.testimonial p{
+    padding: 10px;
+}
+.testimonial .testimonial-text{
+    font-style: italic;
+}
+.testimonial .testimonial-author h4,
+.testimonial .testimonial-author h5{
+    padding: 5px;
+}
+#testimonials .testimonial img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+/****testimonial*/
+
+/*footer*/
+footer{
+    background-color: #0D1413;
+    color: #fff;
+}
+footer div{
+    padding: 10px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    color: #fff;
+    padding: 10px 0px;
+}
+footer p{
+    padding: 10px 0px;
+}
+.news-letter input{
+    padding: 10px;
+    width: 100%;
+}
+.news-letter button{
+    border: none;
+    width: 40%;
+    margin: 20px 0px;
+    padding: 15px;
+    background-color: #55C18F;
+    color: #fff;
+    transition: box-shadow 0.5s;
+}
+
+.news-letter button:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+/****footer*/
+
+
+/*media queries for tablets*/
+@media screen and (min-width: 750px){
+    header .logo{
+        display: inline-block;
+        width: 30%;
+    }
+    header nav{
+        display: inline-block;
+        width: 60%;
+    }
+    #intro{
+        min-height: 80vh;
+    }
+    #intro h2{
+        margin-top: 250px;
+    }
+    #intro h3{
+        padding: 15px;
+    }
+    .service{
+        width: 70%;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .work, #blog .article,
+    #testimonials .testimonial,
+    footer .services-links,
+    footer .get-in-touch{
+        margin: 20px;
+        width: 40%;
+        display: inline-block;
+    }
+    footer .services-links a{
+        padding: 5px 0px;
+        display: inline-block;
+    }
+    footer .news-letter{
+        margin: 10px 20px;
+    }
+    footer .news-letter input{
+        width: 70%;
+    }
+    
+    footer .news-letter button{
+        margin-left: 10px;
+        width: 20%;
+        padding: 12px;
+    }
+    footer .copyright{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
